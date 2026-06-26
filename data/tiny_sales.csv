@@ -1,0 +1,7 @@
+date,store,item,units,price
+2026-01-01,A,apple,10,120
+2026-01-01,A,banana,5,80
+2026-01-02,A,apple,,120
+2026-01-02,B,apple,7,120
+2026-01-03,B,banana,3,80
+2026-01-03,B,apple,2,120
