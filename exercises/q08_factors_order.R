@@ -7,7 +7,7 @@ library(nycflights13)
 df <- flights |>
   count(carrier) |>
   # BUG: これだとアルファベット順になる
-  mutate(carrier = as.factor(carrier))
+  mutate(carrier = fct_reorder(carrier, n, .desc = TRUE))
 
 # TODO:
 # - ggplotで棒グラフ
